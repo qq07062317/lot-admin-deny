@@ -1,3 +1,5 @@
+# LOT 本地开发机限制：根域名及其所有子域名，包括 admin、play、chat、api。
+# 保留 admin-deny.yaml 文件名，兼容已有订阅；新站点按 '+.example.com' 格式追加。
 payload:
-  - admin.yxpc.cc
-  - admin.lotone1.co
+  - '+.yxpc.cc'
+  - '+.lotone1.co'
